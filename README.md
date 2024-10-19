@@ -1,6 +1,6 @@
 # pdf-generation
 
-* Implemented PDF generation using iText and Thymeleaf. iText handles the creation of PDFs programmatically, while Thymeleaf utilizes HTML templates for dynamic content generation. The HTML template serves as a structured layout for the PDF, allowing for easy customization of the document’s appearance and format.
+* Implemented PDF generation using iTextPdf and Thymeleaf. iTextPdf handles the creation of PDFs programmatically, while Thymeleaf utilizes HTML templates for dynamic content generation. The HTML template serves as a structured layout for the PDF, allowing for easy customization of the document’s appearance and format.
 
 ## Technology Stack:
 
