@@ -26,18 +26,19 @@
 
 
 ## InvoiceRequest:
- > seller: String
- > sellerGstin: String
- > sellerAddress: String
- > buyer: String
- > buyerGstin: String
- > buyerAddress: String
- > items: List<Item>
+------
+ - seller: String
+ - sellerGstin: String
+ - sellerAddress: String
+ - buyer: String
+ - buyerGstin: String
+ - buyerAddress: String
+ - items: List<Item>
 * Item:
- > name: String
- > quantity: String
- > rate: double
- > amount: double
+ - name: String
+ - quantity: String
+ - rate: double
+ - amount: double
 
 ## Postman Validation:
 
