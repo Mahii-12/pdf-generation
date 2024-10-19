@@ -34,7 +34,7 @@
  - buyerGstin: String
  - buyerAddress: String
  - items: List<Item>
-* Item:
+ > Item:
  - name: String
  - quantity: String
  - rate: double
