@@ -1,6 +1,6 @@
 # pdf-generation
 
-* Implemented PDF generation using iText and Thymeleaf. iText handles the creation of PDFs programmatically, while Thymeleaf is used for templating, allowing for dynamic content generation.
+* Implemented PDF generation using iText and Thymeleaf. iText handles the creation of PDFs programmatically, while Thymeleaf utilizes HTML templates for dynamic content generation. The HTML template serves as a structured layout for the PDF, allowing for easy customization of the document’s appearance and format.
 
 ## Technology Stack:
 
@@ -24,7 +24,6 @@
 ## CRUD Operations:
 * Implemented functionality to handle incoming requests, generating PDFs based on user input and ensuring seamless retrieval from local storage.
 
-
 ## InvoiceRequest:
 ------
  - seller: String
@@ -43,4 +42,5 @@
 ## Postman Validation:
 
 * Functional Testing:
-  > Used Postman to enables functional testing of REST APIs by sending requests and validating responses. This ensures that endpoints function correctly and meet specified requirements, enhancing system reliability and user confidence.
+  > Utilized Postman for testing REST endpoints, ensuring that the PDF generation and retrieval functionalities worked as expected. Conducted validation to confirm that the application handled various input scenarios correctly, enhancing reliability.
+
