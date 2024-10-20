@@ -6,6 +6,16 @@
 
 * I chose Java for its robustness and portability. Spring Boot simplifies the development of RESTful APIs, allowing rapid application setup. Maven is used for dependency management and project build automation.
 
+# Application Setup Instructions:
+
+> 1. Clone Repository:
+  Clone the repository to your local machine:
+ * git clone https://github.com/Mahii-12/pdf-generation.git
+> 2. Navigate to the Project Directory:
+> 3. Build the project using Maven:
+ * mvn clean install
+
+
 ##  Local Storage:
 
 * Generated PDFs are stored locally on the server’s filesystem. Each PDF is uniquely identified to avoid overwriting and ensure retrievability.
