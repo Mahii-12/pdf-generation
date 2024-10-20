@@ -11,8 +11,7 @@
 > 1. Clone Repository:
   Clone the repository to your local machine:
  * git clone https://github.com/Mahii-12/pdf-generation.git
-> 2. Navigate to the Project Directory:
-> 3. Build the project using Maven:
+> 2. Build the project using Maven:
  * mvn clean install
 
 
@@ -49,8 +48,14 @@
  - rate: double
  - amount: double
 
+## Testing:
+
+* JUnit and Mockito:
+  > Tested the controller endpoints using JUnit and Mockito, where JUnit is a widely-used testing framework for Java applications, while Mockito is a popular mocking framework. Together, they allow for thorough testing of controller methods and REST APIs, ensuring correct behavior and identifying potential issues early in the development cycle.
+
 ## Postman Validation:
 
 * Functional Testing:
-  > Utilized Postman for testing REST endpoints, ensuring that the PDF generation and retrieval functionalities worked as expected. Conducted validation to confirm that the application handled various input scenarios correctly, enhancing reliability.
+  > Used Postman to enables functional testing of REST APIs by sending requests and validating responses. This ensures that endpoints function correctly and meet specified requirements, enhancing system reliability and user confidence.
+
 
